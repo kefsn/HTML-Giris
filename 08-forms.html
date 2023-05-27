@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Yapisi</title>
+  </head>
+  <body>
+    <h1>FORM YAPISI</h1>
+
+    <form method="post" action="users/update">
+      <label for="name">Lutfen Adinizi giriniz</label>
+      <input type="text" id="name" />
+      <br />
+      <br />
+
+      <label for="surName">Soyadinizi giriniz </label>
+      <input type="text" id="surName" />
+      <br />
+      <br />
+      <label for="email">E-postanizi giriniz</label>
+      <input type="email" id="email" />
+      <br />
+      <br />
+      <label for="sifre">Sifrenizi giriniz</label>
+      <input type="password" id="sifre" />
+      <br />
+      <br />
+      <label for="phoneNumber">Telefon Numaranızı giriniz</label>
+      <input type="number" id="phoneNumber" />
+      <br />
+      <br />
+
+      <label for="cinsiyet">Cinsiyetinizi Seçiniz</label>
+
+      <input type="radio" name="cinsiyet" id="erkek" />
+      <label for="erkek">Erkek</label>
+
+      <input type="radio" name="cinsiyet" id="kadın" />
+      <label for="kadın">Kadın</label>
+
+      <input type="radio" name="cinsiyet" id="diğer" />
+      <label for="diğer">Belirtmek istemiyorum</label>
+      <br />
+      <br />
+      <label for="birthday">Doğum Tarihinizi Giriniz</label>
+      <input type="date" id="birthday" />
+      <br />
+      <br />
+      <label for="girisTarihi">İşe giriş tarihinizi yazınız</label>
+      <input type="datetime-local" id="girisTarihi">
+      <br>
+      <br>
+      <label for="hobby">Hobilerinizi seçiniz</label>
+      <br>
+      <br>
+      
+      <input type="checkbox" name="hobby" id="hobby">
+      <label for="hobby">Yazılım</label>
+      <br>
+      <br>
+      <input type="checkbox" name="hobby" id="hobby">
+      <label for="hobby">Cripto</label>
+      <br>
+      <br>
+      <input type="checkbox" name="hobby" id="hobby">
+      <label for="hobby">Playstation Games</label>
+      <br>
+      <br>
+      <input type="color" name="hobby" id="renk">
+      <label for="renk">Sevdiğiniz rengi giriniz</label &nbsp;>
+      <!-- Yorum satırı(shift +alt + A) olara olara kullanılır... &nbsp; 
+      Yazı ve kutucuk arasına boşluk koymak için kullanılır. -->
+        
+      <br>
+      <label for="aralik">Bir aralık Seçiniz</label>
+      <input type="range" step="10" id="aralik">
+      <br>
+      <br>
+      <label for="saat">Giriş saatinizi seçiniz</label>
+        <input type="time" id="saat">
+        <br>
+        <br>
+        <label for="dosya">Resumenizi upload edin</label>
+        <input type="file" name="" id="dosya">
+        <br>
+        <br>
+        <select name="şehir" id="">
+         
+          <option value="">Doğum yeriniz</option>
+          <option value="01">Ankara</option>
+          <option value="02">İstanbul</option>
+          <option value="03">İzmir</option>
+        
+        </select>
+        <br>
+        <br>
+      
+        <label for="">Görüş ve önerilerinizi yazınız</label>
+        <br>
+        <textarea name="" id="" cols="30" rows="10"></textarea>
+    <br>
+    <br>
+    <input type="button" value="Buton">
+    <input type="submit" value="Gönder">
+    <input type="reset" value="Sil">
+    
+    
+    
+    
+    
+      </form>
+  </body>
+</html>
